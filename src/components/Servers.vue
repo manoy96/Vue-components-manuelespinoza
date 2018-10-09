@@ -1,10 +1,10 @@
 <template>
   <ul>
-    <li>Server #1</li>
-    <li>Server #2</li>
-    <li>Server #3</li>
-    <li>Server #4</li>
-    <li>Server #5</li>
+    <li><v-icon>dns</v-icon><span>Server #1</span></li>
+    <li><v-icon>dns</v-icon><span>Server #2</span></li>
+    <li><v-icon>dns</v-icon><span>Server #3</span></li>
+    <li><v-icon>dns</v-icon><span>Server #4</span></li>
+    <li><v-icon>dns</v-icon><span>Server #5</span></li>
   </ul>
 </template>
 
@@ -29,6 +29,9 @@ export default {
   }
   ul li:hover {
     background-color: #e0dfdf;
+  }
+  span{
+    margin: .25rem 1rem;
   }
 </style>
 
